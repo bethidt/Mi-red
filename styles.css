@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(4, 10, 58);
+    color: #fff;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.img-logo{
+height: 40px;
+margin-right: 8px;
+ 
+}
+.logo h2{
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+    .buscador-centrado{
+        flex-grow: 1;
+         display: flex;
+          justify-content: center;
+
+    }
+.search-box{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+   
+.search-box input[type="text"]{
+font-family:'Franklin Gothic Medium';
+font-size: 15px;
+padding: 10px;
+margin: 8px;
+border: 0;
+border-radius: 3px;
+width: 400px;
+
+}
+.search-box button,
+.search-box input[type="submit"]{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding: 10px;
+    border: 0;
+    border-radius:3px;
+    background-color: #2e40e2;
+    color: white;
+    cursor: pointer;
+    width: 130px;
+
+} 
+    
+#nav{
+    display: flex;
+
+}
+.img-inicio{
+    height: 40px; 
+    padding-right: 10px;
+}
+#publicaciones{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    width: 90%;
+
+}
+.publicacion{
+
+background-color: #f9f9f9;
+border: 1px solid #ccc;
+border-radius: 10px;
+padding: 15px;
+margin-bottom: 20px;
+width: 100%;
+max-width: 600px;
+box-shadow: 0 4px 8px    rgba(0,0,0,0,1);
+
+}
+.publicacion p{
+    margin: 5px 0;
+}
+.publicacion strong{
+    font-weight: bold;
+    color: #333;
+
+}
+.publicacion small{
+    color: #666;
+    font-size: 0.9em;
+
+}
+main{
+    margin-top: 70px;
+    
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.perfil {
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.foto {
+    width: 400px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 50px auto;
+}
+
+.info {
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.perfil {
+    width: 300px;
+    margin: 40px auto;
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.info {
+    text-align: center;
+}
+
+.redes-sociales {
+    margin-top: 20px;
+}
+
+.redes-sociales a {
+    margin-right: 10px;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(145, 177, 248);
+    margin: 50px;
+    padding: 20px;
+}
+
+.perfil {
+    width: 300px;
+    margin: 200px auto;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+.info {
+    text-align: center;
+}
+
+.amigos {
+    margin-top: 10px;
+}
+
+.amigos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.amigos li {
+    margin-bottom: 10px;
+}
+
+.amigos img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200%;
+    margin-right: 50px;
+
+     margin-top: 0px;
+    }
+    
+    .amigos ul {
+        padding:5px;
+    }
+    
+    .amigos li {
+        margin-bottom: 100;
+    }
+
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    .fotos {
+        width: 300%;
+        margin: 0px auto;
+        padding: 200px;
+        border: 1px solid #ddd;
+        border-radius: 100px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .foto {
+        width: 200px;
+        height: 150px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    .foto img {
+        width: 300%;
+        height: 200%;
+        margin:50px ;
+       border-radius: 0px;
+    }
+    

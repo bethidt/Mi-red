@@ -1,0 +1,101 @@
+#sesion{
+    display: inline;
+}
+
+ #sesion input{
+    font-family: 'century Gothic';
+    font-size: 15px;
+    padding: 10px;
+    margin: 3px ;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 3px;
+}
+
+  #btnsesion, #btnregistro, #btnbuscar #btnpublicar{
+    font-family: 'century Gothic';
+    font-size: 15px;
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #2e40e2;
+    color: white;
+    cursor: pointer;
+}
+
+  #btnsesion:hover, #btnregistro:hover, #btnpublicar:hover{
+    background-color: #091f68;
+}
+ 
+  #sesion a{
+    color: #ffffff;
+    font-family: 'arial';
+    font-size: 15px;
+    display: grid;
+    margin: 6px;
+    justify-content: end;
+   
+}
+
+#sesion a:hover{
+    color: #fc8d0e;
+}
+
+#contenedor{
+  font-family: Arial, sans-serif;
+  display: block;
+  width: 500px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  float: right;
+  margin-right: 4%;
+  margin-top: 10%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  background: #ccd1ff;
+}
+
+#contenedor h2{
+  color: #091f68;
+}
+  
+#contenedor label{
+  display: block;
+  margin-bottom: 5px;
+}
+  
+#contenedor input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+#contenedorP{
+  font-family: Arial, sans-serif;
+  display: block;
+  width: 800px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 10%;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  background: #ccd1ff;
+}
+
+  
+#contenedorP label{
+  display: block;
+  margin-bottom: 5px;
+}
+  
+#contenedorP input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}

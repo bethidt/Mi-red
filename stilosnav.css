@@ -1,0 +1,45 @@
+/*Estilo de la barra de navegacion*/
+.menu{
+    display: flex;
+    flex-direction:column ;
+    width: 250px;
+    height: calc(100vh - 56px);/*Ajustar la altura restando la altura del header*/
+    background-color:rgb(20,41,204);
+    position: fixed;
+    top: 56px;/*Ajustar la posicion para que comience debajo del header*/
+    left: 0;
+    z-index: 999;/*Asegura que el menu estapor encima del contenido*/
+
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 45px;
+    
+}
+.menu ul li{
+    padding: 15px;
+    text-align: center;/*centra el texto dentro de los elementos de la lista*/
+}
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+   
+}
+
+.menu ul li:hover{
+    width: 250px;
+    background-color: rgb(4, 10, 58);
+    }
+    
+/*Estilo del contenido */
+.contenido{
+    margin-left: 250;
+    padding: 100px 20px 20px 20px;
+
+}
+
+.contenido p {
+    color: #666;
+}

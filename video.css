@@ -1,0 +1,11 @@
+.contenedor-video {
+    position: relative;
+    width: 640px; /* Ancho del contenedor */
+    height: 480px; /* Alto del contenedor */
+    margin: 20px auto; /* Centrado horizontal */
+    background-color: #000; /* Fondo negro para videos con fondos claros */
+}
+
+.contenedor-video video {
+    object-fit: cover; /* Ajusta el video al contenedor sin distorsionar */
+}

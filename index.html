@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Red Social</title>
+    <link rel="stylesheet" href="stiloss.css">
+    <link rel="stylesheet" href="stilosforms.css">
+  
+
+
+</head>
+<body>
+    <header>
+        <section class="logo">
+            <img src="logo.png" alt="logo" class="img-logo">
+            <h2>Mini Red Social</h2>
+
+        </section>
+        <section>
+            <form id="sesion" action="login.php" method="post">
+            <input type="text" id="email_login" name="emai_login" placeholder="nombre de usuario:"required>
+            <input type="password" id="password_login" name="password_login"placeholder="contraseña"required>
+            <button id="btnsesion">iniciar sesion</button>
+            <a href="#">¿Olvidaste tu contraseña?</a>
+          </form>
+        </section>
+    </header>
+    <main>
+        <section>
+            <form id="contenedor" action="registro.php" method="post">
+            <h2>Registro</h2>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre"required>
+        <label form="email">Correo electronico:</label>
+        <input type="text" id="email"name="email"required>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password"required>
+        <button id="btnregistro">Registrarse</button>
+        </form>
+
+        </section>
+        <section>
+            <img src="conecta.png" alt="imagen del mundo" class="conecta-img">
+        </section>
+        
+       <footer>
+        <p>@ 2025 Mi Pagina Web</p>
+       </footer>
+    </main>
+</body>
+</html> 
